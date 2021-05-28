@@ -39,6 +39,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E5908A96266179D7006B6EDA /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				E5F42DD524F4F4A800224461 /* AppDelegate.swift */,
+				E5F42DD724F4F4A800224461 /* SceneDelegate.swift */,
+				E5F42DE324F4F4A800224461 /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		E5908A98266179EC006B6EDA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5F42DE924F4F50500224461 /* TrackList.swift */,
+				E5F42DEB24F4F84C00224461 /* DetailVC.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E5908A9A266179F7006B6EDA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E5F42DDB24F4F4A800224461 /* Main.storyboard */,
+				E5F42DE024F4F4A800224461 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E5908A9C26617A03006B6EDA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E5F42DDE24F4F4A800224461 /* Assets.xcassets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		E5F42DC924F4F4A800224461 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +94,10 @@
 		E5F42DD424F4F4A800224461 /* ArtCover */ = {
 			isa = PBXGroup;
 			children = (
-				E5F42DD524F4F4A800224461 /* AppDelegate.swift */,
-				E5F42DD724F4F4A800224461 /* SceneDelegate.swift */,
-				E5F42DE924F4F50500224461 /* TrackList.swift */,
-				E5F42DEB24F4F84C00224461 /* DetailVC.swift */,
-				E5F42DDB24F4F4A800224461 /* Main.storyboard */,
-				E5F42DDE24F4F4A800224461 /* Assets.xcassets */,
-				E5F42DE024F4F4A800224461 /* LaunchScreen.storyboard */,
-				E5F42DE324F4F4A800224461 /* Info.plist */,
+				E5908A96266179D7006B6EDA /* Supporting files */,
+				E5908A98266179EC006B6EDA /* View Controllers */,
+				E5908A9A266179F7006B6EDA /* Storyboards */,
+				E5908A9C26617A03006B6EDA /* Source */,
 			);
 			path = ArtCover;
 			sourceTree = "<group>";
@@ -290,7 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZZW6YBBKN;
-				INFOPLIST_FILE = ArtCover/Info.plist;
+				INFOPLIST_FILE = "ArtCover/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +340,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UZZW6YBBKN;
-				INFOPLIST_FILE = ArtCover/Info.plist;
+				INFOPLIST_FILE = "ArtCover/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
