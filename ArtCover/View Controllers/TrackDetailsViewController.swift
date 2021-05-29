@@ -13,13 +13,12 @@ class TrackDetailsViewController: UIViewController {
     @IBOutlet var image: UIImageView!
     @IBOutlet var titlelabel: UILabel!
     
-    var trackTitle = ""
+    var track: Track!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        image.image = UIImage(named: trackTitle)
-        titlelabel.text = trackTitle
-        titlelabel.numberOfLines = 0
+        titlelabel.text = track.title
+        titlelabel.numberOfLines = 2
+        image.image = UIImage(named: track.title)
     }
 }

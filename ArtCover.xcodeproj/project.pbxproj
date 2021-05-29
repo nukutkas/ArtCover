@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5AB161F2662AF9F00649F47 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AB161E2662AF9F00649F47 /* Track.swift */; };
 		E5F42DD624F4F4A800224461 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F42DD524F4F4A800224461 /* AppDelegate.swift */; };
 		E5F42DD824F4F4A800224461 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F42DD724F4F4A800224461 /* SceneDelegate.swift */; };
 		E5F42DDD24F4F4A800224461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F42DDB24F4F4A800224461 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E5AB161E2662AF9F00649F47 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		E5F42DD224F4F4A800224461 /* ArtCover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtCover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F42DD524F4F4A800224461 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5F42DD724F4F4A800224461 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,14 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
+		E5AB161D2662AF8900649F47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5AB161E2662AF9F00649F47 /* Track.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E5F42DC924F4F4A800224461 = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +104,10 @@
 		E5F42DD424F4F4A800224461 /* ArtCover */ = {
 			isa = PBXGroup;
 			children = (
-				E5908A96266179D7006B6EDA /* Supporting files */,
 				E5908A98266179EC006B6EDA /* View Controllers */,
+				E5AB161D2662AF8900649F47 /* Model */,
 				E5908A9A266179F7006B6EDA /* Storyboards */,
+				E5908A96266179D7006B6EDA /* Supporting files */,
 				E5908A9C26617A03006B6EDA /* Source */,
 			);
 			path = ArtCover;
@@ -174,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5F42DD624F4F4A800224461 /* AppDelegate.swift in Sources */,
+				E5AB161F2662AF9F00649F47 /* Track.swift in Sources */,
 				E5F42DEC24F4F84C00224461 /* TrackDetailsViewController.swift in Sources */,
 				E5F42DD824F4F4A800224461 /* SceneDelegate.swift in Sources */,
 				E5F42DEA24F4F50500224461 /* TrackListViewController.swift in Sources */,
@@ -252,7 +264,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -306,7 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
