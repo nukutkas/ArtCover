@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Track List View Controller-->
+        <!--Track List-->
         <scene sceneID="Y7a-e7-kZh">
             <objects>
                 <tableViewController id="mcM-ze-D9S" customClass="TrackListViewController" customModule="ArtCover" customModuleProvider="target" sceneMemberID="viewController">
@@ -35,13 +35,13 @@
                             <outlet property="delegate" destination="mcM-ze-D9S" id="ZMX-Ib-0H1"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="s7u-UH-aGh"/>
+                    <navigationItem key="navigationItem" title="Track List" id="s7u-UH-aGh"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DwA-Ca-tkU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="943.20000000000005" y="-8.5457271364317844"/>
         </scene>
-        <!--Track Details View Controller-->
+        <!--Track Info-->
         <scene sceneID="jkA-LJ-tgX">
             <objects>
                 <viewController id="cpg-9Q-CT8" customClass="TrackDetailsViewController" customModule="ArtCover" customModuleProvider="target" sceneMemberID="viewController">
@@ -71,7 +71,7 @@
                             <constraint firstItem="RCk-tG-FxP" firstAttribute="top" secondItem="wGy-mI-LMj" secondAttribute="bottom" constant="27" id="x4N-6m-BdR"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="FeR-u1-kK9"/>
+                    <navigationItem key="navigationItem" title="Track Info" id="FeR-u1-kK9"/>
                     <connections>
                         <outlet property="image" destination="wGy-mI-LMj" id="Bqj-St-3xb"/>
                         <outlet property="titlelabel" destination="RCk-tG-FxP" id="58s-Ax-qyN"/>
