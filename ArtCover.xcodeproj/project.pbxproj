@@ -12,8 +12,8 @@
 		E5F42DDD24F4F4A800224461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F42DDB24F4F4A800224461 /* Main.storyboard */; };
 		E5F42DDF24F4F4A800224461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F42DDE24F4F4A800224461 /* Assets.xcassets */; };
 		E5F42DE224F4F4A800224461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F42DE024F4F4A800224461 /* LaunchScreen.storyboard */; };
-		E5F42DEA24F4F50500224461 /* TrackList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F42DE924F4F50500224461 /* TrackList.swift */; };
-		E5F42DEC24F4F84C00224461 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F42DEB24F4F84C00224461 /* DetailVC.swift */; };
+		E5F42DEA24F4F50500224461 /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F42DE924F4F50500224461 /* TrackListViewController.swift */; };
+		E5F42DEC24F4F84C00224461 /* TrackDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F42DEB24F4F84C00224461 /* TrackDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		E5F42DDE24F4F4A800224461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5F42DE124F4F4A800224461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5F42DE324F4F4A800224461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5F42DE924F4F50500224461 /* TrackList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackList.swift; sourceTree = "<group>"; };
-		E5F42DEB24F4F84C00224461 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		E5F42DE924F4F50500224461 /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
+		E5F42DEB24F4F84C00224461 /* TrackDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +52,8 @@
 		E5908A98266179EC006B6EDA /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E5F42DE924F4F50500224461 /* TrackList.swift */,
-				E5F42DEB24F4F84C00224461 /* DetailVC.swift */,
+				E5F42DE924F4F50500224461 /* TrackListViewController.swift */,
+				E5F42DEB24F4F84C00224461 /* TrackDetailsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -174,9 +174,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5F42DD624F4F4A800224461 /* AppDelegate.swift in Sources */,
-				E5F42DEC24F4F84C00224461 /* DetailVC.swift in Sources */,
+				E5F42DEC24F4F84C00224461 /* TrackDetailsViewController.swift in Sources */,
 				E5F42DD824F4F4A800224461 /* SceneDelegate.swift in Sources */,
-				E5F42DEA24F4F50500224461 /* TrackList.swift in Sources */,
+				E5F42DEA24F4F50500224461 /* TrackListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TrackList: UITableViewController {
+class TrackListViewController: UITableViewController {
     let imageNameArray = ["Alberto Ruiz - 7 Elements (Original Mix)",
                           "Dave Wincent - Red Eye (Original Mix)",
                           "E-Spectro - End Station (Original Mix)",
@@ -50,7 +50,7 @@ class TrackList: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ShowDetail" {
             if let indexPath = self.tableView.indexPathForSelectedRow {
-                let detailsVC = segue.destination as! DetailVC
+                let detailsVC = segue.destination as! TrackDetailsViewController
                 detailsVC.trackTitle = imageNameArray[indexPath.row]
             }
         }

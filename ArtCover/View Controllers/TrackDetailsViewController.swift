@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DetailVC: UIViewController {
+class TrackDetailsViewController: UIViewController {
 
     @IBOutlet var image: UIImageView!
     @IBOutlet var titlelabel: UILabel!
